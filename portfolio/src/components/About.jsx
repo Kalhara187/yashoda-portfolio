@@ -12,7 +12,7 @@ export default function About() {
     <section id="about" className="mx-auto max-w-7xl scroll-mt-24 px-6 py-24 md:py-28">
       <motion.div initial={{ opacity: 0, y: 60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">About me</p>
-        <h2 className="mb-6 text-4xl font-semibold text-white md:text-5xl">Professional introductions</h2>
+        <h2 className="mb-6 text-4xl font-semibold text-white md:text-5xl">Professional introduction</h2>
         <p className="max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
           I am a full stack developer with hands-on experience across modern web technologies and a strong interest in building clean, reliable systems. My work combines frontend detail, backend logic, and practical delivery.
         </p>
